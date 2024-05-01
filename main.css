@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.horizontal-scrollbar::-webkit-scrollbar {
+  height: 5px;
+}
+
+.horizontal-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.horizontal-scrollbar::-webkit-scrollbar-thumb {
+  background: #000000;
+}
